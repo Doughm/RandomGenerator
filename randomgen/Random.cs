@@ -24,6 +24,13 @@ namespace randomgen
             initialize(startingSeed);
         }
 
+        public RandomGen(ulong startingSeed, int startingPosition)
+        {
+            seed = startingSeed;
+            position = startingPosition;
+            initialize(startingSeed);
+        }
+
         // initializes the array
         private void initialize(ulong seedPassed)
         {
@@ -44,6 +51,35 @@ namespace randomgen
             {
                 position = 2;
             }
+        }
+
+        //sets the position of the array marker
+        public void setPostion(int newPosition)
+        {
+            position = newPosition + 2;
+            if (position >= numberArray.Length)
+            {
+                position = 2;
+            }
+            if (position <= 2)
+            {
+                position = 2;
+            }
+        }
+
+        //sets the seed and generates a new set of numbers
+        public void setSeed(ulong newSeed)
+        {
+            seed = newSeed;
+            initialize(seed);
+        }
+
+        //sets the seed and generates a new set of numbers
+        public void setSeed(ulong newSeed, int newPosition)
+        {
+            seed = newSeed;
+            position = newPosition;
+            initialize(seed);
         }
 
         //returns a random integer
