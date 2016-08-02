@@ -4,3 +4,9 @@ c:\users\doug\documents\visual studio 2013\Projects\randomgen\randomgen\bin\Debu
 c:\users\doug\documents\visual studio 2013\Projects\randomgen\randomgen\obj\Debug\randomgen.exe
 c:\users\doug\documents\visual studio 2013\Projects\randomgen\randomgen\obj\Debug\randomgen.pdb
 C:\Users\Doug\Documents\Visual Studio 2013\Projects\randomgen\randomgen\obj\Debug\randomgen.csprojResolveAssemblyReference.cache
+C:\Users\Doug\Documents\GitHub\RandomGenerator\randomgen\bin\Debug\randomgen.exe.config
+C:\Users\Doug\Documents\GitHub\RandomGenerator\randomgen\obj\Debug\randomgen.exe
+C:\Users\Doug\Documents\GitHub\RandomGenerator\randomgen\obj\Debug\randomgen.pdb
+C:\Users\Doug\Documents\GitHub\RandomGenerator\randomgen\bin\Debug\randomgen.exe
+C:\Users\Doug\Documents\GitHub\RandomGenerator\randomgen\bin\Debug\randomgen.pdb
+C:\Users\Doug\Documents\GitHub\RandomGenerator\randomgen\obj\Debug\randomgen.csprojResolveAssemblyReference.cache
